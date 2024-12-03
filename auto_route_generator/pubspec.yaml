@@ -4,23 +4,19 @@ version: 5.0.2
 homepage: https://github.com/Milad-Akarie/auto_route_library
 publish_to: none
 environment:
-  sdk: ">=2.17.0 <3.0.0"
+  sdk: ">=3.2.0 <4.0.0"
 
 dependencies:
   build: ^2.1.1
   source_gen: ^1.1.1
-  analyzer: ">=4.3.0 <5.0.0"
+  analyzer: ^6.3.0
   path: ^1.8.0
   build_runner: ^2.1.5
   code_builder: ^4.1.0
   dart_style: ^2.2.0
   xml: ^6.0.1
   args: ^2.3.1
-  auto_route:
-    git:
-      url: "https://github.com/djangoflow/auto_route_library.git"
-      ref: master
-      path: "auto_route"
+  auto_route: ^5.0.1
 
 #    path: ../auto_route
 
